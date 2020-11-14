@@ -15,7 +15,12 @@ class MethodInvocation
     {
         $this->declaredClass = $declaredClass;
     }
+']
 
+
+
+
+'
     /**
      * @return mixed
      */

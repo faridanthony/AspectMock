@@ -14,6 +14,11 @@ class Mocker implements Aspect {
 
     public function fakeMethodsAndRegisterCalls($class, $declaredClass, $method, $params, $static)
     {
+        // New css changes
+
+
+
+        
 //        $method = $invocation->getMethod();
 //        $obj = $invocation->getThis();
         $result = __AM_CONTINUE__;
