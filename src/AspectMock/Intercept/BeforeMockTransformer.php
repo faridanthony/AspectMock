@@ -19,11 +19,6 @@ class BeforeMockTransformer extends WeavingTransformer
     {
         $fileName = $metadata->uri;
 
-
-
-
-
-        
         if ($this->includePaths) {
             $found = false;
             foreach ($this->includePaths as $includePath) {
